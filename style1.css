@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --black:black;
+    --purple:purple;
+    --light-color:#666;
+}
+/* *{
+    font-family:'andika';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+} */
+html{
+    font-size: 15px;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    font-family: 'Andika', sans-serif; /* Ensure font fallback */
+    background-image: url(cart1.png);
+
+}
+
+.header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+}
+.header .logo image{
+
+    margin-top: 10px;
+    height: 95%;
+    width: 65%;
+    display: inline-block;
+    
+}
+.header .headbar a{
+    font-size: 1.7rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    color: var(--light-color);
+}
+
+.header .headbar a:hover{
+    color: orangered;
+    background: linear-gradient(120deg,#FAB2FF,40%,#663399);
+}
+/* body h1{
+    align-items: center;
+    padding-top: 350px;
+    padding-bottom: 280px;
+    padding-left: 390px;
+    padding-right: 300px;
+} */
